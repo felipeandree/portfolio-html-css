@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #f6f9ff;
+    display: flex;
+    justify-content: center;
+    color: #434343;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* section {
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    position: relative;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul { 
+    display: flex;   
+}
+
+nav ul li a { 
+    margin: 30px;
+    font-family: myriad pro regular;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.name {
+    font-family: Arial;
+    color: #000000;
+    font-size: 22px;
+}
+
+/* 
+Quando estiver num linke ativo (home, contato, sobre) ele estará em destaque
+*/
+
+.active {
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+
+.cards {
+    padding-top: 500px;
+}
